@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Smooch & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 550px;
+    background-image: linear-gradient(to right, black, rgb(29, 26, 26), rgb(125, 125, 125), rgb(36, 36, 36));
+    border-top: 5px solid gold;
+    border-bottom: 5px solid gold;
+    
+}
+
+div#conteudo {
+    display: flex;
+    color: white;
+}
+
+div#conteudo > img {
+    display: block;
+    margin-top: -105px;
+    margin-left: 250px;
+
+}
+
+div#conteudo > h1 {
+    font-family: 'Smooch', cursive;
+    padding: 50px;
+    margin-top: 150px;
+    line-height: 33px;
+    font-size: 50px;
+}
+
+div#conteudo > h1 > span {
+    color: gold;
+}
+
+div#conteudo > nav {
+    display: flex;
+    position: absolute;
+}
+
+
+div#conteudo > nav > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+div#conteudo > nav > a:hover {
+    color: gold;
+    transition: .5s;
+}
+
+section.fundo {
+    height: 500px;
+    background-image: url('../imagens/foto-camera-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.572);
+    border-bottom: 5px solid gold;
+}
+
+section.fundo2 {
+    height: 500px;
+    background-image: url('../imagens/foto-camera-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.572);
+    border-bottom: 5px solid gold;
+}
+
+section.normal {
+    height: 730px;
+    background-image: linear-gradient(to right, black, rgb(29, 26, 26), rgb(125, 125, 125), rgb(36, 36, 36));
+    border-bottom: 5px solid gold;
+}
+
+section.normal > h2 {
+    color: gold;
+    padding: 20px;
+    text-align: center;
+}
+
+section.normal p {
+    width: 80%;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    margin: auto;
+}
+
+section.normal table {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    color: white;
+    border-collapse: collapse;
+}
+
+section.normal th {
+    background-color: black;
+    padding: 10px;
+    border: 2px solid gold;
+    
+}
+
+section.normal td {
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid gold;
+}
+
+footer {
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+}

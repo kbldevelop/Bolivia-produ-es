@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+    body {
+        text-align: center;
+    }
+
+    div#conteudo > h1 {
+        line-height: 45px;
+    }
+
+    div#conteudo > img {
+        display: none;
+    }
+
+    section.normal {
+        height: 800px;
+    }
+}
